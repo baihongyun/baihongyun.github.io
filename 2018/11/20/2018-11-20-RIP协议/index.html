@@ -6,17 +6,20 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="http://Aalizzwell.com">
-  <title>一种基于色彩迁移技术的DeBruijn彩色结构光解码算法 | 平行世界，多元生活</title>
+  <title>RIP协议 | 平行世界，多元生活</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="keywords" content="科研,论文">
+  <meta name="description" content="1.基本原理 路由信息协议（Routing information protocol）是内部网关协议IGP中最先广泛使用的协议。RIP是一种分布式的基于距离向量的路由选择协议。 RIP不工作在IP层面，而是封装在UDP内部，使用520端口号实现路由表更新，收敛速度慢，适合于小型网络。 关于距离（跳数）的定义：  从一个路由器到直接连接的网络的距离定义为1。 从一个路由器发到非直接连接的网络的距离定">
+<meta name="keywords" content="技术,网络">
 <meta property="og:type" content="article">
-<meta property="og:title" content="一种基于色彩迁移技术的DeBruijn彩色结构光解码算法">
-<meta property="og:url" content="http://Aalizzwell.com/2018/11/16/2018-11-16-科研论文/index.html">
+<meta property="og:title" content="RIP协议">
+<meta property="og:url" content="http://Aalizzwell.com/2018/11/20/2018-11-20-RIP协议/index.html">
 <meta property="og:site_name" content="平行世界，多元生活">
+<meta property="og:description" content="1.基本原理 路由信息协议（Routing information protocol）是内部网关协议IGP中最先广泛使用的协议。RIP是一种分布式的基于距离向量的路由选择协议。 RIP不工作在IP层面，而是封装在UDP内部，使用520端口号实现路由表更新，收敛速度慢，适合于小型网络。 关于距离（跳数）的定义：  从一个路由器到直接连接的网络的距离定义为1。 从一个路由器发到非直接连接的网络的距离定">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2018-11-16T07:29:40.867Z">
+<meta property="og:updated_time" content="2018-11-20T02:09:24.249Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="一种基于色彩迁移技术的DeBruijn彩色结构光解码算法">
+<meta name="twitter:title" content="RIP协议">
+<meta name="twitter:description" content="1.基本原理 路由信息协议（Routing information protocol）是内部网关协议IGP中最先广泛使用的协议。RIP是一种分布式的基于距离向量的路由选择协议。 RIP不工作在IP层面，而是封装在UDP内部，使用520端口号实现路由表更新，收敛速度慢，适合于小型网络。 关于距离（跳数）的定义：  从一个路由器到直接连接的网络的距离定义为1。 从一个路由器发到非直接连接的网络的距离定">
   
     <link rel="alternative" href="/atom.xml" title="平行世界，多元生活" type="application/atom+xml">
   
@@ -146,35 +149,36 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            <article id="post-2018-11-16-科研论文" class="article article-type-post " itemscope itemprop="blogPost">
+            <article id="post-2018-11-20-RIP协议" class="article article-type-post " itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
     <h1 class="article-title" itemprop="name">
-      一种基于色彩迁移技术的DeBruijn彩色结构光解码算法
+      RIP协议
     </h1>
   
 
         
-        <a href="/2018/11/16/2018-11-16-科研论文/" class="archive-article-date">
-  	<time datetime="2018-11-15T16:00:00.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2018-11-16</time>
+        <a href="/2018/11/20/2018-11-20-RIP协议/" class="archive-article-date">
+  	<time datetime="2018-11-19T16:00:00.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2018-11-20</time>
 </a>
         
       </header>
     
     <div class="article-entry" itemprop="articleBody">
       
-        <div width="500" height="50"><br>    
-
-	<div class="row">
-    <embed src="/paper/一种基于色彩迁移技术的DeBruijn彩色结构光解码算法.pdf" width="100%" height="550" type="application/pdf">
-	</div>
-
-
-<br></div>
-
+        <p><strong>1.基本原理</strong></p>
+<p>路由信息协议（Routing information protocol）是内部网关协议IGP中最先广泛使用的协议。RIP是一种分布式的基于距离向量的路由选择协议。</p>
+<p>RIP不工作在IP层面，而是封装在UDP内部，使用520端口号实现路由表更新，收敛速度慢，适合于小型网络。</p>
+<p>关于距离（跳数）的定义：</p>
+<ul>
+<li>从一个路由器到直接连接的网络的距离定义为1。</li>
+<li>从一个路由器发到非直接连接的网络的距离定义为所经过的路由器数加1。</li>
+</ul>
+<p>RIP协议使用单一的跳数（Hop）来度量网络的优劣，最大可用的跳数为15跳（为15跳时仍然加入路由表），而到达16时网络将不可达。其防环机制包含：水平分割，毒性反转，触发更新。</p>
+<p><strong>2.基本原理</strong></p>
 
       
 
@@ -219,11 +223,11 @@
 		<ul class="article-tag-list">
 			 
         		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">科研</a>
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">技术</a>
         		</li>
       		 
         		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">论文</a>
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">网络</a>
         		</li>
       		
 		</ul>
@@ -279,7 +283,7 @@
     <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
     <p>扫一扫，分享到微信</p>
     <div class="wx-qrcode">
-      <img src="//pan.baidu.com/share/qrcode?url=http://Aalizzwell.com/2018/11/16/2018-11-16-科研论文/" alt="微信分享二维码">
+      <img src="//pan.baidu.com/share/qrcode?url=http://Aalizzwell.com/2018/11/20/2018-11-20-RIP协议/" alt="微信分享二维码">
     </div>
 </div>
 
@@ -293,18 +297,9 @@
   
 <nav id="article-nav">
   
-    <a href="/2018/11/20/2018-11-20-RIP协议/" id="article-nav-newer" class="article-nav-link-wrap">
-      <i class="icon-circle-left"></i>
-      <div class="article-nav-title">
-        
-          RIP协议
-        
-      </div>
-    </a>
   
-  
-    <a href="/2018/11/16/2018-11-16-毕业论文/" id="article-nav-older" class="article-nav-link-wrap">
-      <div class="article-nav-title">基于空间编码结构光的高精度三维重构关键技术研究</div>
+    <a href="/2018/11/16/2018-11-16-科研论文/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">一种基于色彩迁移技术的DeBruijn彩色结构光解码算法</div>
       <i class="icon-circle-right"></i>
     </a>
   
