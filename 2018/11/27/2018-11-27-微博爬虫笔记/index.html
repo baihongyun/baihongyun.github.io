@@ -21,7 +21,8 @@
 <meta property="og:image" content="http://aalizzwell.com/assets/blogImg/spider_3.png">
 <meta property="og:image" content="http://aalizzwell.com/assets/blogImg/spider_4.png">
 <meta property="og:image" content="http://aalizzwell.com/assets/blogImg/spider_5.png">
-<meta property="og:updated_time" content="2018-11-27T08:17:14.668Z">
+<meta property="og:image" content="http://aalizzwell.com/assets/blogImg/spider_6.png">
+<meta property="og:updated_time" content="2018-11-27T14:47:06.600Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="微博爬虫笔记">
 <meta name="twitter:description" content="一、安装redis 首先需要到如下地址下载Window版本的Redis。官网目前只能下载Linux版本的。我下载的是Window 64bit，下载完成后将其解压，cmd进入解压目录。  启动命令:redis-server redis.windows.conf，出现下图显示表示启动成功了。  ​">
@@ -177,7 +178,7 @@
       
         <p><strong>一、安装redis</strong></p>
 <p>首先需要到<a href="https://github.com/MSOpenTech/redis/tags" target="_blank" rel="noopener">如下地址</a>下载Window版本的Redis。官网目前只能下载Linux版本的。我下载的是Window 64bit，下载完成后将其解压，cmd进入解压目录。</p>
-<p><img src="/assets/blogImg/spider_1.png" height="300" width="500"></p>
+<p><img src="/assets/blogImg/spider_1.png" height="300" width="300"></p>
 <p>启动命令:redis-server redis.windows.conf，出现下图显示表示启动成功了。 </p>
 <p>​    <a id="more"></a></p>
 <p><img src="/assets/blogImg/spider_2.png" height="300" width="500"></p>
@@ -190,6 +191,10 @@
 <p><img src="/assets/blogImg/spider_4.png" hieght="300" width="500"></p>
 <p>输入命令之后没有报错，表示成功了，刷新服务，会看到多了一个redis服务。</p>
 <p><img src="/assets/blogImg/spider_5.png" hieght="300" width="500"></p>
+<p>卸载服务：redis-server –service-uninstall</p>
+<p>开启服务：redis-server –service-start</p>
+<p>停止服务：redis-server –service-stop</p>
+<p><img src="/assets/blogImg/spider_6.png" hieght="300" width="500"></p>
 
       
 
@@ -436,14 +441,6 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
           <ul class="article-tag-list" q-show="showTags">
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">技术</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">网络</a>
-              </li>
-             
-              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color3">金融</a>
               </li>
              
@@ -464,11 +461,19 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">论文</a>
+                <a href="javascript:void(0)" class="js-tag color5">毕业论文</a>
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color5">毕业论文</a>
+                <a href="javascript:void(0)" class="js-tag color3">技术</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color3">网络</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color3">论文</a>
               </li>
              
               <li class="article-tag-list-item">
